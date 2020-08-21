@@ -1,0 +1,9 @@
+<label>
+  Enter number for table
+</label>
+<input [(ngModel)]="dig">
+<button (click)="tablecalc()">Calculate</button>
+<div *ngFor="let item of arr;">
+   {{item}}
+</div>
+<button routerLink="/">Page 1</button>
